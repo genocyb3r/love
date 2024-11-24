@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=auto">
+    <title>Ride - HYBS</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex; /* Enables flexbox */
+            flex-direction: column; /* Stack elements vertically */
+            justify-content: center; /* Centers content vertically */
+            align-items: center; /* Centers content horizontally */
+            background-color: pink; /* Sets the background color */
+            text-align: center; /* Centers text inside the container */
+        }
+        .text {
+            font-size: 2em; /* Adjust font size */
+            font-weight: bold; /* Make text bold */
+            color: rgb(247, 21, 9); /* Set text color */
+            margin-bottom: 20px; /* Add space between text and image */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a img {
+            height: auto;
+            width: auto; /* Adjust image size */
+            border-radius: 10px; /* Optional: Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for aesthetics */
+        }
+        a img:hover {
+            transform: scale(1.1); /* Enlarge slightly on hover */
+            transition: transform 0.3s ease; /* Smooth hover effect */
+        }
+    </style>
+</head>
+<body>
+    <!-- Text Above the Picture -->
+    <div class="text">Click the cat!</div>
+    
+    <!-- Clickable image link -->
+    <a href="anotherpage.html" target="_blank">
+        <img src="https://assets3.thrillist.com/v1/image/2968553/792x416/scale;webp=auto;jpeg_quality=60;progressive.jpg" alt="Clickable Image">
+    </a>
+    
+    <!-- Add the audio player -->
+    <audio autoplay>
+        <source src="assets/audio/backmusic.m4a" type="audio/mp3">
+        <!-- Add a fallback message -->
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>

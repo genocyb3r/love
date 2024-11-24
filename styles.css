@@ -4,15 +4,11 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
     overflow: hidden; /* Hide scrollbars */
-
 }
 
 .pink-background {
     background-color: pink;
-    
 }
-
-
 
 /* Style the video container */
 .video-container {
@@ -44,9 +40,7 @@ body, html {
 h1 {
     font-size: 3em;
     color: #ff5733;
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Button Styling */
@@ -72,4 +66,46 @@ h1 {
 #redirect-btn:active {
     background-color: #c04b1b; /* Even darker shade when clicked */
     transform: scale(1.05); /* Slightly reduce size on click */
+}
+
+/* Common styles for the "nextpage.html" and "anotherpage.html" */
+body.pink-background {
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.text {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(247, 21, 9); /* Set text color */
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a img {
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.download-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5733; /* Orange button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.download-link:hover {
+    background-color: #c04b1b; /* Darker shade on hover */
 }
